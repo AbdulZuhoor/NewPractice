@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#this is name of scenario"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 19742444100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializerPractice.beforeHooks()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login test to TekSchool TestEnvironment page",
+        "description": "",
+        "id": "login;login-test-to-tekschool-testenvironment-page",
+        "after": [
+          {
+            "result": {
+              "duration": 3734825700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializerPractice.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6152815400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on TekSchool page",
+            "match": {
+              "location": "LoginPageStepDefinitions.user_is_on_TekSchool_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2337842400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Click on Test Environment link",
+            "match": {
+              "location": "LoginPageStepDefinitions.user_Click_on_Test_Environment_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9684200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should see Test Environment page",
+            "match": {
+              "location": "LoginPageStepDefinitions.user_should_see_Test_Environment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Features/LoginPage.feature"
+  }
+]
